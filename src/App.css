@@ -1,22 +1,30 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: 'Prompt-Bold';
+    src: url('/fonts/Prompt-Bold.ttf');
 }
 
-.App-logo {
-  height: 40vmin;
+@font-face {
+    font-family: 'Prompt-Medium';
+    src: url('/fonts/Prompt-Medium.ttf');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+    font-family: 'Prompt-Regular';
+    src: url('/fonts/Prompt-Regular.ttf');
 }
 
-.App-link {
-  color: #09d3ac;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Prompt-Medium';
+}
+
+.title {
+    font-family: 'Prompt-Regular';
+}
+
+.mvh-100 {
+    min-height: 100vh;
+}
+
+.mvh-90 {
+    min-height: 90vh;
 }
