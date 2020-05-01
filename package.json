@@ -8,6 +8,7 @@
     "google-maps-react": "^2.0.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-firebaseui": "^4.0.0",
     "react-scripts": "^3.3.0",
     "trim": "0.0.1"
   },

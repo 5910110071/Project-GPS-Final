@@ -12,13 +12,20 @@
     font-family: 'Prompt-Regular';
     src: url('/fonts/Prompt-Regular.ttf');
 }
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Prompt-Medium';
+@font-face {
+    font-family: 'THSarabunNew Bold';
+    src: url('/fonts/THSarabunNew Bold.ttf');
 }
 
-.title {
-    font-family: 'Prompt-Regular';
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'THSarabunNew Bold';
+}
+
+* {
+    font-family: 'THSarabunNew Bold';
+    font-size: 25px;
 }
 
 .mvh-100 {
